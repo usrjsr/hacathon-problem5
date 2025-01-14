@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="Stylesheet" href="quizstyle.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1><u><b>QUIZ (+4/-1)</b></u></h1><br>
+
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Who invented Java Programming?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q1" value="0"> Guido van Rossum</label>
+                    <label><input type="radio" name="q1" value="1"> James Gosling</label>
+                    <label><input type="radio" name="q1" value="0"> Dennis Ritchie</label>
+                    <label><input type="radio" name="q1" value="0"> Bjarne Stroustrup</label>
+                </div>
+          
+            </div>
+            <br><br>
+            <div class="question">
+                <p>2. Which statement is true about Java?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q2" value="0"> Java is a sequence-dependent programming language</label>
+                    <label><input type="radio" name="q2" value="0"> Java is a code dependent programming language</label>
+                    <label><input type="radio" name="q2" value="0"> Java is a platform-dependent programming language</label>
+                    <label><input type="radio" name="q2" value="1"> Java is a platform-independent programming language</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="question">
+                <p>3. Which component is used to compile, debug and execute the java programs?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q3" value="0"> JRE</label>
+                    <label><input type="radio" name="q3" value="0"> JIT</label>
+                    <label><input type="radio" name="q3" value="1"> JDK</label>
+                    <label><input type="radio" name="q3" value="0"> JVM</label>
+                </div>
+                
+            </div>
+            <br><br>
+            <div class="question">
+                <p>4. Which one of the following is not a Java feature?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q4" value="0"> Object-oriented</label>
+                    <label><input type="radio" name="q4" value="1"> Use of pointers</label>
+                    <label><input type="radio" name="q4" value="0"> Portable</label>
+                    <label><input type="radio" name="q4" value="0"> Dynamic and Extensible</label>
+                </div>
+                
+            </div>
+            <br><br>
+            <div class="question">
+                <p>5. Which of these cannot be used for a variable name in Java?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q5" value="0"> identifier & keyword</label>
+                    <label><input type="radio" name="q5" value="0"> identifier</label>
+                    <label><input type="radio" name="q5" value="1"> keyword</label>
+                    <label><input type="radio" name="q5" value="0"> none of the mentioned</label>
+                </div>
+
+            </div>
+            <br>
+            <button type="button" onclick="finalScore()">Submit</button>
+        </form>
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

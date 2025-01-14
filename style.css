@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: white;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover; 
+    z-index: -1;
+}
+
+.border{
+    border: 1px solid transparent;
+
+}
+
+.border:hover{
+    border: 1px solid rgb(12, 12, 12);
+}
+
+.nav-bar{
+    height: 72px;
+    background-color: rgb(1, 10, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-container-nav-bar{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(logo.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 100%;
+}
+
+.nav-search-bar{
+    display: flex;
+    background-color: black;
+    width: 550px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+
+.search-input{
+    width: 500px;
+    font-size: 16px;
+    border: 1px solid black;
+    
+}
+
+.search-icon{
+    width: 50px;
+    background-color: rgb(200, 200, 245);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.search-icon :hover{
+    background-color: (135, 194, 218)
+}
+
+
+
+.right-container-nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130.72px;
+    height: 72px;
+}
+
+.login-button{
+  font-size: 17px;
+  background-color: rgb(248, 252, 252);
+  
+}
+
+.login-button:hover{
+background-color: rgb(135, 194, 218);
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 169.72px;
+    height: 72px;
+    margin-right: 20px;
+
+}
+.sign-up-button:hover{
+    background-color: rgb(135, 194, 218);
+    }
+
+.sign-up-button{
+    font-size: 17px;
+    background-color: rgb(248, 252, 252);
+  }
+
+*{
+    margin : 0;
+    padding : 0;
+}
+#widesection{
+    padding : 25px;
+}
+.start{
+    display : flex;
+     flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+}
+#image{
+    height : 500px;
+    width : 500px;
+    display: flex;
+    align-items: center;
+}
+#heading{
+    margin-left: 50px;
+    height : 500px;
+    width : 500px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#head{
+    font-size: 60px;
+}
+#section{
+    font-size: 30px;
+}
+#image_1{
+    width: 500px;
+    height: 400px;
+}
+
+.second-nav{
+    height: 1000px;
+    width: 100%;
+    
+    }
+
+
+    .courses {
+     height: 500px;
+     width: 100%;
+     
+     display: flex;
+     justify-content: space-evenly;
+    }
+      
+    
+    .cpp {
+        height: 400px;
+        width:300px;
+        
+         
+    }
+    
+    .java {
+        height: 400px;
+        width:300px;
+        
+        
+    }
+    
+    .python {
+        height: 400px;
+        width:300px;
+        
+        
+    }
+    .cpp-logo {
+        margin-top: 5px;
+       display: flex;
+       justify-content: center;
+       margin-left: 3px;
+    }
+    .view-courses {
+        height: 55px;
+        width: 150px;
+       font-style: normal;
+       border: 2px groove blue;
+       margin-left: 40px;
+       margin-left: 40px;
+       color: blue;
+       border-radius: 10%;
+    }
+    
+     button{
+        height: 40px;
+        width: 150px;
+         margin-left: 60px;
+        left: 210px ;
+        background-color: rgb(174, 217, 235);
+        color: black;
+        border: 1px groove rgb(242, 242, 247);
+        text-decoration: none;
+        z-index: 1;
+        
+    } 
+    
+    
+    button.hover {
+        background-color: rgb(247, 247, 253);
+    }
+    img {
+        height: 120px;
+        width: 120px;
+        margin-top: 7px;
+        
+    }
+    .java-logo {
+        margin-left:74px;
+    }
+    .phython-logo {
+        margin-left: 74px;
+    }
+
+    a {
+        text-decoration: none; 
+        color: inherit; 
+    }
+    
+    a:hover {
+        text-decoration: none; 
+    }
+
+.quizzz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    position: absolute;
+    top: 1100px;
+    left: 200px;
+    
+}
+
+
+
+
+.icon-page{
+     display: flex;
+    margin-left: 600px;
+    gap: 20px;
+    color:blue;
+}
+
+a{
+    text-decoration: none;
+   color: inherit;
+}
+.add-link{
+   margin-left: 550px;
+}
+.add-link :hover{
+    text-decoration: underline; 
+}
+
+
+.AI-ML {
+    height: 400px;
+    width: 300px;
+}
+.java-script {
+    height: 400px;
+    width: 300px;
+}
+.java-logo{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;  
+}
+.ai-logo {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;  
+}
+
+.extra-courses {
+    height: 500px;
+ width: 100%;
+ position: absolute;
+ top: 1250px;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ 
+
+}
+
+.disclaimer{
+    color: rgb(205, 247, 248);
+    text-align: center;
+}
+.footer1 .icon-page i:hover{
+   
+    opacity: 1;
+    transform: scale(1.2);
+    color: red;
+}

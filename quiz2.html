@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="Stylesheet" href="quizstyle.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1><u><b>QUIZ (+4/-1)</b></u></h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Who developed Python Programming Language?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q1" value="1"> Guido van Rossum</label>
+                    <label><input type="radio" name="q1" value="0"> James Gosling</label>
+                    <label><input type="radio" name="q1" value="0"> Dennis Ritchie</label>
+                    <label><input type="radio" name="q1" value="0"> Bjarne Stroustrup</label>
+                </div>
+            </div>
+            <br><br>
+            <div class="question">
+                <p>2. Which type of Programming does Python support?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q2" value="0"> object-oriented programming</label>
+                    <label><input type="radio" name="q2" value="0"> structured programming</label>
+                    <label><input type="radio" name="q2" value="0"> functional programming</label>
+                    <label><input type="radio" name="q2" value="1"> all of the mentioned</label>
+                </div>
+            </div>
+            <br><br>
+            <div class="question">
+                <p>3. Which of the following is the correct extension of the Python file?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q3" value="0"> python</label>
+                    <label><input type="radio" name="q3" value="0"> .pl</label>
+                    <label><input type="radio" name="q3" value="0"> .p</label>
+                    <label><input type="radio" name="q3" value="1"> .py</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="question">
+                <p>4. Is Python case sensitive when dealing with identifiers?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q4" value="0"> no</label>
+                    <label><input type="radio" name="q4" value="1"> yes</label>
+                    <label><input type="radio" name="q4" value="0"> machine dependent</label>
+                    <label><input type="radio" name="q4" value="0"> none of the mentioned</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="question">
+                <p>5. Is Python code compiled or interpreted?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q5" value="1"> Python code is both compiled and interpreted</label>
+                    <label><input type="radio" name="q5" value="0"> Python code is neither compiled nor interpreted</label>
+                    <label><input type="radio" name="q5" value="0"> Python code is only compiled</label>
+                    <label><input type="radio" name="q5" value="0"> Python code is only interpreted</label>
+                </div>
+
+            </div>
+            <br>
+            <button type="button" onclick="finalScore()">Submit</button>
+        </form>
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

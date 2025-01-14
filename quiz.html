@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="Stylesheet" href="quizstyle.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1><u><b>QUIZ (+4/-1)</b></u></h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Which of the following is a correct identifier in C++?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q1" value="1"> VAR_1234</label>
+                    <label><input type="radio" name="q1" value="0"> $var_name</label>
+                    <label><input type="radio" name="q1" value="0"> 7VARNAME</label>
+                    <label><input type="radio" name="q1" value="0"> 7var_name</label>
+                </div>
+
+            </div>
+         <br><br>
+            <div class="question">
+                <p>2. What is virtual inheritance in C++?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q2" value="0"> C++ technique to enhance multiple inheritance</label>
+                    <label><input type="radio" name="q2" value="0"> C++ technique to ensure that a private member of the base class can be accessed somehow</label>
+                    <label><input type="radio" name="q2" value="0"> C++ technique to avoid multiple inheritances of classes</label>
+                    <label><input type="radio" name="q2" value="1"> C++ technique to avoid multiple copies of the base class into children/derived class</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="question">
+                <p>3. What happens if the following C++ statement is compiled and executed?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q3" value="0"> The program is not semantically correct</label>
+                    <label><input type="radio" name="q3" value="1"> The program is compiled and executed successfully</label>
+                    <label><input type="radio" name="q3" value="0"> The program gives a compile-time error</label>
+                    <label><input type="radio" name="q3" value="0"> The program compiled successfully but throws an error during run-time</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="question">
+                <p>4. What happens if the following program is executed in C and C++?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q4" value="0"> Error in C and successful execution in C++</label>
+                    <label><input type="radio" name="q4" value="0"> Error in both C and C++</label>
+                    <label><input type="radio" name="q4" value="1"> Error in C++ and successful execution in C</label>
+                    <label><input type="radio" name="q4" value="0"> A successful run in both C and C++</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="question">
+                <p>5. Which of the following type is provided by C++ but not C?</p>
+                <div class="answers">
+                    <label><input type="radio" name="q5" value="0"> double</label>
+                    <label><input type="radio" name="q5" value="1"> float</label>
+                    <label><input type="radio" name="q5" value="0"> int</label>
+                    <label><input type="radio" name="q5" value="0"> bool</label>
+                </div>
+
+            </div>
+            <br>
+            <button type="button" onclick="finalScore()">Submit</button>
+        </form>
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
